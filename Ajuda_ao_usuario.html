@@ -6,49 +6,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Ajuda.css">
+    <link rel="stylesheet" href="barnav.css">
+    <link rel="stylesheet" href="fot.css">
     <title>Suporte</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<header>
-    <nav class="navbar">
-        <p>Navi bar aqui caralho</p>
-    </nav>
-</header>
 
 <body>
+    <nav>
+        <div class="cor-hamburguer">
+            <nav class="menu">
+                <input type="checkbox" class="menu-faketrigger" />
+                <div class="menu-lines">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Configurações</a></li>
+                    <li><a href="#">Sair</a></li>
+                </ul>
+            </nav>
+
+            <div class="search-container">
+                <form>
+                    <input type="text" id="search-bar" placeholder="pesquise">
+                    <a href="#"><img class="search-icon"
+                            src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a>
+                </form>
+            </div>
+
+            <div class="icones-nav">
+                <a href="#"><img src="assets-navbar/Carrinho (1).png" alt="icone do usuario"></a>
+                <a href="#"><img src="assets-navbar/User (2).png" alt="icone do usuario"></a>
+            </div>
+        </div>
+    </nav>
+
     <main>
         <div class="suporte">
             <h2>Como podemos ajudar?</h2>
         </div>
 
-
-    
         <div class="painel">
             <div class="subpainel">
                 <div class="topicos">
-                    <a href="">
-                        <p>Mais topicos ></p>
-                    </a>
                 </div>
                 <div class="teste">
-                <a href="#"> <button> > Envio</button></a>
-                <a href="#"> <button> > Reembolso</button></a>
-                <a href="#"> <button> > Pedido</button></a>
-                <a href="#"> <button> > Boleto</button></a>
-                <a href="#"> <button> > Perguntas Frequentes</button></a>
-                <a href="#"> <button> > Conta</button></a>
-            </div>
+                    <a href="Envio.html"><button> > Envio</button></a>
+                    <a href="Reembolso.html"><button> > Reembolso</button></a>
+                    <a href="Pedido.html"><button> > Pedido</button></a>
+                    <a href="Boleto.html"><button> > Boleto</button></a>
+                    <a href="Perguntas.html"><button> > Perguntas Frequentes</button></a>
+                    <a href="Conta.html"><button> > Conta</button></a>
+                </div>
             </div>
         </div>
-
-
-
-
+        <div class="chat">
+            <a href="outra_pagina.html">
+                <img src="assets-FAQS/gchat2.jpg" alt="Ícone para outra página" style="width:50px;height:50px;">
+            </a>
+        </div>
     </main>
+
     <footer>
         <div class="container-footer">
             <div class="links-footer">
@@ -96,7 +121,6 @@
                 <i class="fa fa-facebook fa-2x"></i>
                 <i class="fa fa-twitter fa-2x"></i>
                 <i class="fa fa-snapchat fa-2x"></i>
-
             </div>
         </div>
 
