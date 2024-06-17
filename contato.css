@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    
+    
+    width: 1630px; 
+    height: 1500px;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f4f4f4;
+    
+  }
+  
+  .container-main {
+    display: flex;
+    justify-content:center;
+    padding-top: 5%;
+    height: 50%;
+    background-color: #E0E3E5;
+    gap: 60px;
+    padding: 20px;
+    
+  }
+  
+  .formulario {
+    background-color: #627254;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+    padding: 1%;
+  
+    width: 500px; 
+    height: 625px;
+    
+  }
+  .flex {
+    padding: 3%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+
+  }
+  
+  .principal {
+    
+    margin: 0%;
+    margin-bottom: 2%;
+  }
+
+  .mapa{
+
+    width: 500px;
+    height: 500px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #02383C;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2bb5be;
+  }
+  
+  
+  
+  
+  
+  
+  .container-footer{
+
+    display: flex;
+    justify-content:center;
+    padding-top: 5%;
+    height: 50%;
+    background-color: #E0E3E5;
+    gap: 60px;
+    padding: 20px;
+}
+
+.links-footer i{
+    width: 42px;
+}
+
+.paragrafo-footer{
+    font-size: 15px;
+}
+
+.ancora-footer{
+    text-decoration: none;
+    color: black;
+}
+
+.titulo-footer{
+    font-size: 24px;
+    text-decoration: none;
+
+}
+
+.contato-footer{
+    display: flex;
+    
+    text-align: center;
+    justify-content: center;
+    background: #E0E3E5;
+    gap: 20px;
+    padding: 10px;
+}
+.contato-footer i{
+    font-family: 'Poppins',sans-serif;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #02383C;
+}
+.copyright p{
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+    font-size: 12px;
+}
