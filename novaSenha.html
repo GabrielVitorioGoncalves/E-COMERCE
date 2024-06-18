@@ -6,18 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nova Senha</title>
     <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="fot.css">
+    <link rel="stylesheet" href="login.js">
 </head>
 <body>
-    <header></header>
+    <div class="cor-hamburguer">
+        <nav class="menu">
+            <input type="checkbox" class="menu-faketrigger" />
+
+            <div class="menu-lines">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Configurações</a></li>
+                <li><a href="#">Sair</a></li>
+            </ul>
+        </nav>
+
+        <form class="search-container">
+            <input type="text" id="search-bar" placeholder="pesquise">
+            <a href="#"><img class="search-icon"
+                    src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a>
+        </form>
+
+        <div class="icones-nav">
+            <a href="#"><img src="assets-navbar/Carrinho (1).png" alt="icone do usuario"></a>
+            <a href="login.html"><img src="assets-navbar/User (2).png" alt="icone do usuario"></a>
+        </div>
+
+    </div>
     <main>
         <div class="box-main">
             <h2>Nova senha</h2>
             <div class="col-1">
-                <form class="formulario">
+                <form class="formulario" id="form" action="home.html" method="get">
                     <label for="">Nova senha:</label>
-                    <input class="campo" type="password" placeholder="********">
+                    <input class="campo" type="password" placeholder="********" required>
                     <label for="">Confirmar senha:</label>
-                    <input class="campo" type="password" placeholder="********">
+                    <input class="campo" type="password" placeholder="********" required>
                     <input class="btn" type="submit" value="Criar">
                 </form>
             </div>

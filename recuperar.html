@@ -6,9 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recuperar Senha</title>
     <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="fot.css">
 </head>
 <body>
-    <header></header>
+    <div class="cor-hamburguer">
+        <nav class="menu">
+            <input type="checkbox" class="menu-faketrigger" />
+
+            <div class="menu-lines">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Configurações</a></li>
+                <li><a href="#">Sair</a></li>
+            </ul>
+        </nav>
+
+        <form class="search-container">
+            <input type="text" id="search-bar" placeholder="pesquise">
+            <a href="#"><img class="search-icon"
+                    src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a>
+        </form>
+
+        <div class="icones-nav">
+            <a href="#"><img src="assets-navbar/Carrinho (1).png" alt="icone do usuario"></a>
+            <a href="login.html"><img src="assets-navbar/User (2).png" alt="icone do usuario"></a>
+        </div>
+
+    </div>
     <main>
         <div class="box-main">
             <h2>Recuperar senha</h2>
@@ -16,8 +46,9 @@
                 <p>Digite o e-mail associado à sua conta</p>
                 <form class="formulario">
                     <label for="">E-mail:</label>
-                    <input class="campo" type="email" placeholder="nome@gmail.com">
-                    <input id="openModal" class="btn" type="button" value="Enviar">
+                    <input id="email" class="campo" type="email" placeholder="nome@gmail.com" required>
+                    <input id="openModal" class="btn" type="submit" value="Enviar">
+                    <p id="feedback" class="feedback">Preencha este campo</p>
                 </form>
             </div>
             <div id="modal" class="modal">
